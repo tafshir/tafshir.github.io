@@ -1,0 +1,92 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+        font-family:'open sans',sans-serif;
+    }
+    .section-padding{
+        padding:80px 0;
+    }
+    .single-service-box-bg-1{
+        background-size:cover;
+        background-position:center;
+        background-color:#ddd; 
+        height:200px;
+
+        background-image:url(../img/1.png);}
+    .single-service-box-bg-2{
+        background-size:cover;
+        background-position:center;
+        background-color:#ddd; 
+        height:200px;
+        background-image:url(../img/3.png);}
+    .single-service-box-bg-3{
+        background-size:cover;
+        background-position:center;
+        background-color:#ddd; 
+        height:200px;
+        background-image:url(../img/2.png);}
+    
+       .service-box-inner{
+        border:2px solid #f3f3f3;
+        border-top:0px solid;
+        padding:20px;
+        text-align:center;
+
+       }
+       .service-box-inner h3{
+        text-transform:uppercase;
+        font-size:15px;
+       }
+       .single-service-box{
+        position:relative;
+       }
+       .service-box-more-warp{
+        position:absolute;
+        left:0;
+        bottom:-20px;
+        width:100%;
+        text-align:center;
+       }
+       .service-meta{
+        opacity:.5;
+        text-transform:uppercase;
+        font-size:10px;
+        margin:0
+        padding:7px;
+       }
+       .border-btn{
+        display:inline-block;
+        background:;
+        border:1px solid #f3f3f3;
+        color:#999;
+        font-weight:700;
+        text-transform:uppercase;
+        padding: 10px 30px;
+        background:#fff;
+
+       }
