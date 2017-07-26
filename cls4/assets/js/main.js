@@ -1,10 +1,11 @@
-jQuery(document).ready(function($) {
-	$(."team-carousel").owlcarousel({
+$(document).ready(function($){
+	$(".team-carousel").owlCarousel({
 		items:3,
 		margin:30,
 		loop:true,
 		nav:true,
-		navText:["<i class='fa fa-angle-left'></i>"],["<i class='fa fa-angle-right'></i>"]
+		autoplay:true,
+		autoplay:1000,
+		navText:["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
 	});
-
 });
