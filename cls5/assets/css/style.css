@@ -1,0 +1,120 @@
+/* Base CSS */
+.body{
+	font-weight: 300;
+}
+.author-img{
+	position:relative;
+	overflow:hidden;
+}
+.author-img-hover{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index:1;		
+	text-align:center;
+	font-size:20px;
+	color:#555;
+	text-transform:uppercase;
+	transition:.3s;
+	visibility:hidden;
+	top:-100%;	
+}
+.author-img-hover2{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index:1;		
+	text-align:center;
+	font-size:20px;
+	color:#555;
+	text-transform:uppercase;
+	transition:.3s;
+	visibility:hidden;
+	left:-100%;	
+}
+
+.author-img-hover2:after {
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	content:"";
+	background:#ddd;
+	opacity:.8;
+	z-index:-1;
+	}
+	.author-img-hover:after {
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	content:"";
+	background:#ddd;
+	opacity:.8;
+	z-index:-1;
+	}
+.author-img-hover-inner{
+	display:table;
+	height:100%;
+	width:100%;
+}
+.author-img-hover-inner h2{
+	font-size:10px;
+	text-transform:uppercase;
+	font-weight:300;
+	letter-spacing:2px;	
+}
+.soical-links a{
+	color:#919191;
+	display:inline-block;
+	padding:5px;
+}
+.single-team-box h3{
+	font-weight:300;
+	text-transform: uppercase;
+	text-align: center;
+	font-size:7px;
+	margin-top:12px;
+	margin-bottom: 0;
+	letter-spacing: 5px;
+	
+	}
+	.single-team-box h3 span{
+	display:block;
+	font-size:80%;
+	margin-top: 9px;
+}
+.single-team-box2 h3{
+	font-weight:300;
+	text-transform: uppercase;
+	text-align: center;
+	font-size:7px;
+	margin-top:12px;
+	margin-bottom: 0;
+	letter-spacing: 5px;
+	
+	}
+	.single-team-box h3 span{
+	display:block;
+	font-size:80%;
+	margin-top: 9px;
+}
+.author-img-hover-warp{
+	display:table-cell;
+	vertical-align:middle;
+	padding:15px;
+}
+.single-team-box:hover .author-img-hover{
+	top:0;
+	visibility: visible;	
+}
+.single-team-box2:hover .author-img-hover2{
+	left:0;
+	visibility: visible;	
+}
