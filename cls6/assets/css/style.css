@@ -1,0 +1,61 @@
+/* Base CSS */
+.body,h2{
+	font-weight:300;
+}
+.section-padding{
+
+}
+.section-title{
+	font-size: 20px;
+	line-height: 1.8;
+	margin-bottom:50px;
+}
+.cotact-us-form{
+	font-size: 17px;
+	font-weight: 400;
+}
+p.form-element{
+	position:relative;
+}
+p.form-element label{
+	position:absolute;
+	left:15;
+	top:10;
+	text-transform: uppercase;
+	font-size: 14px;
+
+}
+.cotact-us-form input[type=text],
+.cotact-us-form input[type=email],
+.cotact-us-form textarea{
+	border:1px solid #ddd;
+	padding:15px;
+	width:100%;
+	font-size:14px;
+	padding-top:33px;
+	padding-bottom: 10px;
+	transition: .2s;
+
+} 
+.cotact-us-form textarea{
+max-height: 150px;
+}
+.cotact-us-form
+input[type=submit]{
+	.float:right;
+	background:#100;
+	color:#fff;
+	border:none;
+	border-radius:5px;
+	padding: 10px 25px;
+}
+p.small-text{
+	font-size:14px;
+	margin:0;
+	padding:20px 0;
+}
+.cotact-us-form input[type=text]:focus,
+.cotact-us-form input[type=email]:focus,
+.cotact-us-form textarea:focus {
+background-color:#f0f0f0;
+}
