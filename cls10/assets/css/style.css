@@ -121,7 +121,7 @@ padding-top:11px;
 }
 .slide-text h2{
 	text-transform: uppercase;
-	color:#000;
+	color:#eBeBeB;
 	font-weight: 400;
 
 }
@@ -131,4 +131,12 @@ a.boxed-btn{
 	display:inline-block;
 	font-size: 10px;
 	padding:15px 30px;
+}
+.homepage-slides .owl-nav 
+div{
+	color:#fff;
+	display:inline-block;
+	margin-right:20px;
+	font-size:20px;
+	margin-top:18px;
 }
