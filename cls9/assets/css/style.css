@@ -1,0 +1,63 @@
+/* Base CSS */
+.section-padding{
+	padding:80px 0;
+	position:relative;
+	z-index:1;
+}
+.after {
+	text-align:center;
+	text-transform: uppercase;
+	font-weight: 600;
+
+}
+.absoulate-bg-1:after{
+	background-image:url(../img/bg1.jpg);
+}
+.absoulate-bg-2:after{
+	background-image:url(../img/bg1.jpg);
+}
+.section-padding.absoulate-bg-1:after{
+position:absolute;
+right:0;
+top:0;
+width:65%;
+height:100%;
+content:"";
+z-index:-1;
+background-size: cover;
+background-position: center;
+background-color: #333;
+
+
+}
+.section-padding.absoulate-bg-1{
+	margin:50px 0;
+}
+.section-padding.absoulate-bg-2:after{
+	position:absolute;
+right:auto;
+left:0;
+top:0;
+width:50%;
+height:100%;
+content:"";
+z-index:-1;
+background-size: cover;
+background-position: center;
+background-color: #333;
+
+
+}
+.boxed-content{
+	box-shadow: 0 0 5px #ccc;
+	padding:50px;
+	text-align: center;
+	background: #fff;
+
+}
+.boxed-btn{
+	background: #ffce43;
+	padding:10px;
+	display:inline-block;
+	margin-top:10px;
+}
