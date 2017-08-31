@@ -1,0 +1,121 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.section-padding{
+    padding:80px 0;
+}
+.section-bg-1{background-image: url(../img/bg13.jpg);
+}
+.single-service-box-bg-1{
+    background-image: url(../img/bg2.jpg);
+      
+}
+.single-service-box-bg-2{
+    background-image: url(../img/bg3.jpg);
+      
+}
+.single-service-box-bg-3{
+    background-image: url(../img/bg4.jpg);
+      
+}
+.single-service-box-bg-4{
+    background-image: url(../img/bg5.jpg);
+      
+}
+.single-service-box-bg-5{
+    background-image: url(../img/bg6.jpg);
+      
+}
+.single-service-box-bg-6{
+    background-image: url(../img/bg7.jpg);
+      
+}
+
+.single-service-box-bg-7{
+    background-image: url(../img/bg8.jpg);
+
+      
+}
+.single-service-box-bg-8{
+    background-image: url(../img/bg9.jpg);
+      
+}
+.section-padding {
+    position: relative;
+    z-index: 2;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-overlay:after,.single-service-box-bg-1:after,.single-service-box-bg-2:after,.single-service-box-bg-3:after,.single-service-box-bg-4:after,.single-service-box-bg-5:after,.single-service-box-bg-6:after,.single-service-box-bg-7:after,.single-service-box-bg-8:after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #ffce44;
+    z-index: -1;
+    opacity: .5;
+}
+
+.single-service-box-bg-1,.single-service-box-bg-2,.single-service-box-bg-3,.single-service-box-bg-4,.single-service-box-bg-5,.single-service-box-bg-6,.single-service-box-bg-7,.single-service-box-bg-8{
+    display: table;
+    width: 100%;
+    height: 191px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    background-size: 150%;
+    background-position: center;
+    background-color: #4082F2;
+    transition: .5s;
+}
+.single-service-box-bg-1:hover,.single-service-box-bg-2:hover,.single-service-box-bg-3:hover,.single-service-box-bg-4:hover,.single-service-box-bg-5:hover,.single-service-box-bg-6:hover,.single-service-box-bg-7:hover,.single-service-box-bg-8:hover{
+    background-size:250%;
+}
+.single-service-box-bg-1:hover:after,.single-service-box-bg-2:hover:after,.single-service-box-bg-3:hover:after,.single-service-box-bg-4:hover:after,.single-service-box-bg-5:hover:after,.single-service-box-bg-6:hover:after.single-service-box-bg-7:hover:after,.single-service-box-bg-8:hover:after{
+    opacity: .2;
+}
+.service-box-warp {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 17px;
+    text-transform: uppercase;
+}
+
+.service-box-warp h2 {
+    color: #fff;
+ }  
+.single-service-box-bg-1:after,.single-service-box-bg-2:after,.single-service-box-bg-3:after,.single-service-box-bg-4:after,.single-service-box-bg-5:after,.single-service-box-bg-6:after,.single-service-box-bg-7:after,.single-service-box-bg-8:after{
+    background-color: #004D75;
+}
