@@ -1,0 +1,113 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.section-padding{
+    padding: 80px 0;
+}
+.single-pricing-item {
+    box-shadow: 0 0 4px #ccc;
+    padding: 30px;
+    border-top: 3px solid #38c695;
+    text-align: center;
+    transition: .3s
+}
+ .single-pricing-item:hover{
+    transform: scale(1.1);
+ } 
+
+
+.pricing-price-text {
+    background: #38c695;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 30px auto;
+    color: #fff;
+   font-size:5px;
+    position: relative;
+    z-index: 1;
+    
+  }
+
+p.pricing-price-text {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-top: 26px;
+}
+
+p.pricing-price-text:after {
+    position: absolute;
+    left: -8px;
+    top: -9px;
+    width: 114%;
+    height: 114%;
+    content: "";
+    border: 4px solid #38c695;
+    border-radius: 50%;
+}
+
+.pricing-content {
+    font-size: 16px;
+    color: #646464;
+    padding:20px;
+}
+
+a.bordered-btn,.boxed-btn {
+    display: inline-block;
+    border: 2px solid #38c695;
+    font-size: 16px;
+    color: #38c695;
+    padding: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+a.boxed-btn{
+    background-color: #38c695;
+    color:#fff;
+
+}
+.single-pricing-item.theme-2{
+    border-color:#fc5f45;
+}
+.theme-2 .single-pricing-item{
+    background-color:#fc5f45;
+}
+.theme-2.single-pricing-item:after{
+    background-color:#fc5f45;
+
+}
+.theme-2.a.boxed-btn{
+    background-color:#fc5f45;
+    border-color:#fc5f45;
+}
